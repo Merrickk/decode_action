@@ -1,4 +1,7 @@
-//Fri Aug 09 2024 03:11:23 GMT+0000 (Coordinated Universal Time)
+//Fri Aug 09 2024 03:24:30 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
+//Fri Aug 09 2024 02:20:10 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 /*
@@ -141,9 +144,9 @@ const runInterval = process[I111ll(858, "DTgj")][I111ll(363, "ZQRU")] || I111ll(
   maxThreads = 1,
   bean_filter_min = 5,
   today = new Date($["time"]("yyyy-MM-dd 00:00:00"))["getTime"](),
-  yesterday = today - 1440 * 60 * 1000,
-  tomorrow = today + 1440 * 60 * 1000,
-  dayAfterTomorrow = today + 48 * 60 * 60 * 1000,
+  yesterday = today - 86400 * 1000,
+  tomorrow = today + 86400 * 1000,
+  dayAfterTomorrow = today + 2880 * 60 * 1000,
   KEY_TOTAL = 0,
   KEY_TOMORROW = 1,
   KEY_DAY_AFTER_TOMORROW = 2;
@@ -1848,7 +1851,7 @@ async function taskFnc(iIl1l, iIl1i) {
               if (i11i1[l1li11(555, "NdMd")](l1li11(1104, "zDxy"), "DnqcF")) {
                 if (l1IliI["others"][l1li11(675, "cVJ0")] && Array["isArray"](l1IliI["others"][l1li11(1552, "Zop#")][l1li11(799, "RrT@")]) && i11i1[l1li11(568, "*ID9")](l1IliI[l1li11(1537, "bHrX")][l1li11(1292, "!%kT")]["detailList"][l1li11(912, "PqzF")], 0)) {
                   let liIIIi = l1IliI[l1li11(1012, "L!Yb")]["jingBeanExpiringInfo"]["detailList"][l1li11(1518, "sksP")]((iIilI, liii) => iIilI + parseInt(liii[l1li11(1427, "yzIJ")]), 0);
-                  i11i1["WKcby"](iIl1I, "\uD83D\uDC36\uD83D\uDC36\uD83D\uDC36\u4E34\u671F\u4EAC\u8C46\u660E\u7EC6\uD83D\uDC36\uD83D\uDC36\uD83D\uDC36"), iIl1I("\u3010\u8FC7\u671F\u4EAC\u8C46\u3011(7\u65E5\u5185\u8FC7\u671F" + liIIIi + l1li11(825, "G^[K")), l1IlII[l1li11(1512, "@1bC")](l1li11(720, "gXBL") + liIIIi + "\u4EAC\u8C46)"), l1IliI["others"][l1li11(931, "(5ho")][l1li11(1159, "Bns$")][l1li11(1549, "ZQRU")](iliilI => {
+                  i11i1["WKcby"](iIl1I, "\u4E34\u671F\u4EAC\u8C46\u660E\u7EC6"), iIl1I("\u3010\u8FC7\u671F\u4EAC\u8C46\u3011(7\u65E5\u5185\u8FC7\u671F" + liIIIi + l1li11(825, "G^[K")), l1IlII[l1li11(1512, "@1bC")](l1li11(720, "gXBL") + liIIIi + "\u4EAC\u8C46)"), l1IliI["others"][l1li11(931, "(5ho")][l1li11(1159, "Bns$")][l1li11(1549, "ZQRU")](iliilI => {
                     const il1Il1 = l1li11;
                     if (il1Il1(815, "cINr") === il1Il1(766, "Rn#1")) {
                       let IlIlI = IliilI[il1Il1(1375, "GJYI")][il1Il1(1483, "Q9DL")][il1Il1(666, "#dNb")];
@@ -1975,7 +1978,7 @@ async function taskFnc(iIl1l, iIl1i) {
   }
   async function liII() {
     const iIllI = I1ii1l;
-    iIl1I("\uD83E\uDDE7\uD83E\uDDE7\uD83E\uDDE7\u7EA2\u5305\u660E\u7EC6\uD83E\uDDE7\uD83E\uDDE7\uD83E\uDDE7"), i11i1[iIllI(1021, "iB6D")](iIl1I, iIllI(562, "!%kT") + ii1i["total"][KEY_TOTAL] + iIllI(1490, "BgJX") + ii1i[iIllI(420, "b%3]")][KEY_TOMORROW] + iIllI(784, "JEzi") + ii1i["total"][KEY_DAY_AFTER_TOMORROW] + "]"), l1IlII[iIllI(1333, "fqb^")](iIllI(599, "JKB[") + ii1i[iIllI(1497, "BgJX")][KEY_TOTAL] + iIllI(1243, "Q9DL") + ii1i[iIllI(1406, "zDxy")][KEY_TOMORROW] + "]");
+    iIl1I("\u7EA2\u5305\u660E\u7EC6"), i11i1[iIllI(1021, "iB6D")](iIl1I, iIllI(562, "!%kT") + ii1i["total"][KEY_TOTAL] + iIllI(1490, "BgJX") + ii1i[iIllI(420, "b%3]")][KEY_TOMORROW] + iIllI(784, "JEzi") + ii1i["total"][KEY_DAY_AFTER_TOMORROW] + "]"), l1IlII[iIllI(1333, "fqb^")](iIllI(599, "JKB[") + ii1i[iIllI(1497, "BgJX")][KEY_TOTAL] + iIllI(1243, "Q9DL") + ii1i[iIllI(1406, "zDxy")][KEY_TOMORROW] + "]");
     ii1i[iIllI(1024, "u!d]")][0] && iIl1I(iIllI(418, "ZQRU") + ii1i[iIllI(1400, "G^[K")][KEY_TOTAL] + iIllI(1324, "L!Yb") + ii1i[iIllI(560, "L!Yb")][KEY_TOMORROW] + iIllI(1285, "z[K*") + ii1i[iIllI(495, "DTgj")][KEY_DAY_AFTER_TOMORROW] + "]");
     ii1i[iIllI(1561, "ZyL(")][0] && i11i1[iIllI(687, "ZQRU")](iIl1I, "\u3010\u5546\u57CE\u603B\u7EA2\u5305\u3011[" + ii1i["jdapp"][KEY_TOTAL] + iIllI(625, "PqzF") + ii1i[iIllI(1106, "b%3]")][KEY_TOMORROW] + "],\u3010\u660E\u665A\u8FC7\u671F\u3011[" + ii1i[iIllI(1083, "L!Yb")][KEY_DAY_AFTER_TOMORROW] + "]");
     ii1i["lite"][0] && (i11i1["wJVBg"](i11i1[iIllI(1007, "bson")], i11i1[iIllI(1551, "JKB[")]) ? llIl1I = i1lIl1 : iIl1I(iIllI(513, "iB6D") + ii1i["lite"][KEY_TOTAL] + "],\u3010\u4ECA\u665A\u8FC7\u671F\u3011[" + ii1i[iIllI(851, "DTgj")][KEY_TOMORROW] + iIllI(784, "JEzi") + ii1i[iIllI(617, "[4uW")][KEY_DAY_AFTER_TOMORROW] + "]"));
@@ -2328,7 +2331,7 @@ function Env(t, e) {
         }
       };
       if (this.isMute || (this.isSurge() || this.isLoon() ? $notification.post(e, s, i, o(r)) : this.isQuanX() && $notify(e, s, i, o(r))), !this.isMuteLog) {
-        let t = ["", "==============\uD83D\uDCE3\u7CFB\u7EDF\u901A\u77E5\uD83D\uDCE3=============="];
+        let t = ["", "==============\u7CFB\u7EDF\u901A\u77E5=============="];
         t.push(e), s && t.push(s), i && t.push(i), console.log(t.join("\n")), this.logs = this.logs.concat(t);
       }
     }
